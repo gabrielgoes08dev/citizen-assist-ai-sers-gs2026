@@ -1,0 +1,35 @@
+{
+  "regiao": "Região Metropolitana de São Paulo (Enel SP)",
+  "tarifa_residencial_b1_com_impostos_brl_kwh": 0.88,
+  "fonte_tarifa": "Estimativa média baseada na tarifa convencional Grupo B1 Enel SP + ICMS/PIS/COFINS + Bandeira Verde/Amarela (2026).",
+  "custo_disponibilidade_monofasico_kwh": 30,
+  "custo_disponibilidade_bifasico_kwh": 50,
+  "fator_emissao_sin_kg_co2_por_kwh": 0.058,
+  "fonte_fator_emissao": "MCTI - Fator médio anual do Sistema Interligado Nacional (SIN) brasileiro (matriz predominantemente hidrelétrica/renovável, ~0,058 kg CO2/kWh).",
+  "horizonte_analise_meses": 60,
+  "premissas_alternativas": {
+    "alternativa_a_eficiencia": {
+      "descricao": "Redução do banho de 15 min para 8 min/pessoa (24 min/dia = 0,40 h) + troca de 8 lâmpadas 20W por LED 9W.",
+      "novo_tempo_chuveiro_horas_dia": 0.4,
+      "nova_potencia_iluminacao_watts": 72,
+      "custo_8_lampadas_led_brl": 96.0,
+      "fonte_custo": "Preço médio de varejo em SP (R$ 12,00 por lâmpada LED 9W selo PROCEL A)."
+    },
+    "alternativa_b_solar_assinatura": {
+      "descricao": "Geração Distribuída Compartilhada (Fazenda Solar por Assinatura) sem investimento inicial.",
+      "taxa_minima_nao_compensavel_kwh": 50,
+      "percentual_desconto_sobre_energia_compensada": 0.15,
+      "investimento_inicial_brl": 0.0,
+      "fonte_premissa": "Modelos comerciais de assinatura solar regulados pela Lei 14.300/2022 (desconto típico de 10% a 18% na fatura compensável)."
+    },
+    "alternativa_c_solar_proprio_ongrid": {
+      "descricao": "Sistema Fotovoltaico Residencial On-Grid de 2,20 kWp (4 painéis de 550 Wp + microinversor).",
+      "geracao_media_mensal_kwh": 265.0,
+      "irradiacao_media_sp_kwh_m2_dia": 4.45,
+      "performance_ratio": 0.8,
+      "investimento_inicial_brl": 9800.0,
+      "custo_manutencao_anual_brl": 150.0,
+      "fonte_premissa": "CRESESB/CEPEL (irradiação solar em São Paulo) e orçamento médio residencial 2026."
+    }
+  }
+}

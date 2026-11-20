@@ -1,0 +1,89 @@
+{
+  "origem_dados": "Estimativa baseada na tabela de consumo médio PROCEL/Eletrobras para uma residência urbana de 3 moradores em São Paulo/SP.",
+  "tipo_dado": "Estimado com base em referenciais públicos (PROCEL)",
+  "periodo_referencia": "Mensal (30 dias)",
+  "moradores": 3,
+  "equipamentos": [
+    {
+      "nome": "Chuveiro Elétrico (Modo Inverno/Morno)",
+      "potencia_watts": 5500,
+      "horas_uso_dia": 0.75,
+      "observacao_uso": "3 banhos de 15 minutos por dia (45 min = 0,75 h)",
+      "dias_mes": 30,
+      "consumo_kwh_mes": 123.75
+    },
+    {
+      "nome": "Geladeira Duplex Frost-Free (10+ anos)",
+      "potencia_watts": 150,
+      "horas_uso_dia": 12.0,
+      "observacao_uso": "Compressor ligado em média 50% do dia (ciclo térmico)",
+      "dias_mes": 30,
+      "consumo_kwh_mes": 54.0
+    },
+    {
+      "nome": "Máquina de Lavar Roupas (10 kg)",
+      "potencia_watts": 500,
+      "horas_uso_dia": 1.0,
+      "observacao_uso": "3 lavagens por semana (~12 ciclos de 1h no mês)",
+      "dias_mes": 12,
+      "consumo_kwh_mes": 6.0
+    },
+    {
+      "nome": "Iluminação (8 lâmpadas fluorescentes compactas 20W)",
+      "potencia_watts": 160,
+      "horas_uso_dia": 5.0,
+      "observacao_uso": "8 lâmpadas de 20W ligadas em média 5h/dia",
+      "dias_mes": 30,
+      "consumo_kwh_mes": 24.0
+    },
+    {
+      "nome": "TV LED 43 polegadas + Decodificador",
+      "potencia_watts": 120,
+      "horas_uso_dia": 5.0,
+      "observacao_uso": "Uso noturno e fins de semana",
+      "dias_mes": 30,
+      "consumo_kwh_mes": 18.0
+    },
+    {
+      "nome": "Computador / Notebook + Roteador Wi-Fi",
+      "potencia_watts": 110,
+      "horas_uso_dia": 8.0,
+      "observacao_uso": "Home office / estudos + roteador 24h",
+      "dias_mes": 30,
+      "consumo_kwh_mes": 26.4
+    },
+    {
+      "nome": "Micro-ondas",
+      "potencia_watts": 1200,
+      "horas_uso_dia": 0.25,
+      "observacao_uso": "15 minutos por dia aquecendo refeições",
+      "dias_mes": 30,
+      "consumo_kwh_mes": 9.0
+    },
+    {
+      "nome": "Air Fryer (Fritadeira Elétrica)",
+      "potencia_watts": 1500,
+      "horas_uso_dia": 0.5,
+      "observacao_uso": "30 minutos, 15 dias por mês",
+      "dias_mes": 15,
+      "consumo_kwh_mes": 11.25
+    },
+    {
+      "nome": "Ferro de Passar Roupas",
+      "potencia_watts": 1000,
+      "horas_uso_dia": 1.0,
+      "observacao_uso": "1 hora por semana (4 vezes/mês)",
+      "dias_mes": 4,
+      "consumo_kwh_mes": 4.0
+    },
+    {
+      "nome": "Aparelhos em Stand-by e Carregadores",
+      "potencia_watts": 33.6,
+      "horas_uso_dia": 24.0,
+      "observacao_uso": "Consumo residual contínuo estimado",
+      "dias_mes": 30,
+      "consumo_kwh_mes": 24.2
+    }
+  ],
+  "consumo_total_kwh_mes": 300.6
+}
